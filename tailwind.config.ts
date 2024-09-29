@@ -12,6 +12,7 @@ const config: Config = {
 			fontFamily: {
         montserrat: ["var(--font-montserrat)"],
         openSans: ["var(--font-open-sans)"],
+        poppins: ["var(--font-poppins)"],
       },
   		colors: {
   			background: 'var(--background)',
