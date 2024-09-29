@@ -7,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { CheckIcon } from "lucide-react";
 
 const HomePage = () => {
   return (
