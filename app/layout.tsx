@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.variable} ${openSans.variable}`}>
         <ConfigProvider>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </ConfigProvider>
       </body>
