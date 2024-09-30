@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ConfigProvider from "@/providers/ConfigProvider";
 import "./globals.css";
-import Navbar from "@/components/custom/common/navbar";
+// import Navbar from "@/components/custom/common/navbar";
 import { montserrat, openSans } from "../public/font.js";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.variable} ${openSans.variable}`}>
         <ConfigProvider>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </ConfigProvider>
       </body>
