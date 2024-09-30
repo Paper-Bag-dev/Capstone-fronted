@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ConfigProvider from "@/providers/ConfigProvider";
 import "./globals.css";
-import Navbar from "@/components/custom/common/navbar";
+// import Navbar from "@/components/custom/common/navbar";
 import { montserrat, openSans } from "../public/font.js";
 
 export const metadata: Metadata = {
