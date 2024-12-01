@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Basic dashboard with Next.js and Shadcn",
 };
 
-export default function DashboardLayout({
+export default function ArduinoLayout({
   children,
 }: {
   children: React.ReactNode;
