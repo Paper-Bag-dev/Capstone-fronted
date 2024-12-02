@@ -1,0 +1,66 @@
+// dummyData.js
+const dummyData:any = [
+    {
+      name: "Arduino 45",
+      location: "Location A",
+      lon: "78.48",
+      lat: "17.38",
+      humidity: "45%",
+      health: "Good",
+      battery: "80%",
+      voc: "12%",
+    },
+    {
+      name: "Arduino 23",
+      location: "Location B",
+      lon: "80.28",
+      lat: "13.08",
+      humidity: "50%",
+      health: "Moderate",
+      battery: "70%",
+      voc: "8%",
+    },
+    {
+      name: "Arduino 25",
+      location: "Location C",
+      lon: "72.87",
+      lat: "19.07",
+      humidity: "60%",
+      health: "Good",
+      battery: "90%",
+      voc: "15%",
+    },
+    {
+      name: "Arduino 53",
+      location: "Location D",
+      lon: "77.10",
+      lat: "28.70",
+      humidity: "55%",
+      health: "Poor",
+      battery: "65%",
+      voc: "18%",
+    },
+    {
+      name: "Arduino 65",
+      location: "Location E",
+      lon: "85.14",
+      lat: "25.61",
+      humidity: "40%",
+      health: "Good",
+      battery: "85%",
+      voc: "10%",
+    },
+    {
+      name: "Arduino 86",
+      location: "Location F",
+      lon: "88.36",
+      lat: "22.57",
+      humidity: "70%",
+      health: "Excellent",
+      battery: "95%",
+      voc: "5%",
+    },
+  ];
+  
+  export default dummyData;
+  
