@@ -2,7 +2,6 @@ import React from "react";
 import dummyData from "@/dummyData/dummyArduinoData";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
-import { useTheme } from "next-themes"; // optional for theme-based customization
 
 interface Card {
   name: string;
