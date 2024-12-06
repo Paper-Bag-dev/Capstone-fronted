@@ -27,6 +27,14 @@ export interface FooterItem {
   }[];
 }
 
+export interface Arduino{
+  deviceId: string;
+  name: string;
+  latestVoc: string;
+  updates: { time: string; voc: string }[];
+  battery: string;
+} 
+
 export type MainNavItem = NavItemWithOptionalChildren;
 
 export type SidebarNavItem = NavItemWithChildren;
