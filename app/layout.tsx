@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ConfigProvider from "@/providers/ConfigProvider";
 import "./globals.css";
 // import Navbar from "@/components/custom/common/navbar";
-import { montserrat, openSans } from "../public/font.js";
+import { montserrat, openSans, poppins } from "../public/font.js";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${openSans.variable}`}>
+      <body
+        className={`${montserrat.variable} ${openSans.variable} ${poppins.variable}`}
+      >
         <ConfigProvider>
           {/* <Navbar /> */}
           {children}
